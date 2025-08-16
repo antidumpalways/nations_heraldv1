@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const { spawn } = require('child_process');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -41,6 +42,30 @@ app.get('/', (req, res) => {
     groupedBriefings,
     capitalize
   });
+});
+
+// Jalankan channel_scraper.js (Node.js) saat server start
+const scraperProcess = spawn('node', [path.join(__dirname, 'python_services', 'channel_scraper.js')], {
+  stdio: ['inherit', 'pipe', 'pipe']
+});
+
+let scraperData = '';
+scraperProcess.stdout.on('data', (data) => {
+  scraperData += data.toString();
+});
+
+scraperProcess.stderr.on('data', (data) => {
+  console.error(`[SCRAPER ERROR]: ${data}`);
+});
+
+scraperProcess.on('close', (code) => {
+  try {
+    const result = JSON.parse(scraperData);
+    console.table(result, ['channel', 'id', 'date', 'text', 'media']);
+  } catch (e) {
+    console.error('Gagal parsing data dari channel_scraper.js:', e);
+  }
+  console.log(`[SCRAPER PROCESS EXITED] code: ${code}`);
 });
 
 app.listen(PORT, () => {
