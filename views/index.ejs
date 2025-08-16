@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;400&family=Sora:wght@700;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="main-title"><%= title %></h1>
+      <p class="desc"><%= description %></p>
+    </header>
+    <main>
+      <% if (Object.keys(groupedBriefings).length === 0) { %>
+        <div class="empty">No data available.</div>
+      <% } %>
+      <div class="category-cards-row">
+        <% Object.keys(groupedBriefings).forEach(cat => { %>
+          <section class="category-bigcard">
+            <div class="category-heading"><%= cat %></div>
+            <div class="category-list">
+              <% groupedBriefings[cat].forEach(item => { %>
+                <div class="category-list-item">
+                  <div class="cat-list-title"><%= item.project %></div>
+                  <div class="cat-list-desc"><%= item.description %></div>
+                  <% if (item.url) { %>
+                    <a class="cat-list-cta" href="<%= item.url %>" target="_blank">Read More &rarr;</a>
+                  <% } %>
+                </div>
+              <% }) %>
+            </div>
+          </section>
+        <% }) %>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-text">&copy; <%= new Date().getFullYear() %> The Nation's Herald</div>
+    </footer>
+  </div>
+</body>
+</html>

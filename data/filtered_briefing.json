@@ -1,0 +1,100 @@
+[
+  {
+    "project": "Bless Network Airdrop",
+    "category": "Launch",
+    "description": "Bless Network airdrop registration open.",
+    "url": "https://x.com/theblessnetwork/status/1955700125965156681",
+    "promo": false
+  },
+  {
+    "project": "Hypercircle ICO",
+    "category": "Launch",
+    "description": "Hypercircle ICO launching today on HyperEVM.",
+    "url": "https://x.com/hypercircleapp",
+    "promo": false
+  },
+  {
+    "project": "Cherry AI TGE",
+    "category": "Launch",
+    "description": "Cherry AI token generation event live on CEXs.",
+    "url": "https://x.com/cherrytgbot",
+    "promo": false
+  },
+  {
+    "project": "rePrice TGE",
+    "category": "Launch",
+    "description": "rePrice token generation event at 4pm UTC on HyperEVM.",
+    "url": "https://x.com/_rePRICE",
+    "promo": false
+  },
+  {
+    "project": "Overlay TGE",
+    "category": "Launch",
+    "description": "Overlay token generation event live on CEXs.",
+    "url": "https://x.com/OverlayProtocol",
+    "promo": false
+  },
+  {
+    "project": "EtherealDEX Season 1",
+    "category": "Launch",
+    "description": "EtherealDEX season one launched today.",
+    "url": "https://x.com/etherealdex/status/1955346571631149520",
+    "promo": false
+  },
+  {
+    "project": "Morpho",
+    "category": "Launch",
+    "description": "Morpho live on Arbitrum.",
+    "url": "http://app.morpho.org/",
+    "promo": false
+  },
+  {
+    "project": "MetaLend",
+    "category": "Launch",
+    "description": "MetaLend live on Linea.",
+    "url": "https://metalend.tech/",
+    "promo": false
+  },
+  {
+    "project": "Suzaku Network TGE",
+    "category": "Launch",
+    "description": "Suzaku Network token generation event live on Avalanche.",
+    "url": "http://suzaku.network/",
+    "promo": false
+  },
+  {
+    "project": "Quickswap",
+    "category": "Launch",
+    "description": "Quickswap live on Base.",
+    "url": "http://dapp.quickswap.exchange/",
+    "promo": false
+  },
+  {
+    "project": "Ostrich ICO",
+    "category": "Launch",
+    "description": "Ostrich ICO live on Ethereum.",
+    "url": "https://app.ostrich.exchange/initial-citizen-offering",
+    "promo": false
+  },
+  {
+    "project": "Idle Finance ICO",
+    "category": "Launch",
+    "description": "Idle Finance degen ICO live on Base.",
+    "url": "http://ico.idlefinances.com/",
+    "promo": false
+  },
+  {
+    "project": "Extended",
+    "category": "Launch",
+    "description": "Extended live on Starknet.",
+    "url": "http://app.extended.exchange/",
+    "promo": false
+  },
+  {
+    "project": "Lumiterra",
+    "category": "Launch",
+    "description": "New game launched on Monad; users can claim daily rewards.",
+    "url": "https://x.com/LumiterraGame/status/1955601417055686831",
+    "promo": false
+  }
+]

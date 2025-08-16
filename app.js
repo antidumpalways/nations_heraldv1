@@ -1,0 +1,48 @@
+const express = require('express');
+const fs = require('fs');
+const path = require('path');
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Helper: Capitalize first letter
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+// Helper: Group by category, skip 'Promo'
+function groupByCategory(briefings) {
+  const grouped = {};
+  for (const item of briefings) {
+    const cat = item.category ? capitalize(item.category) : 'Other';
+    if (cat.toLowerCase() === 'promo') continue; // skip promo
+    if (!grouped[cat]) grouped[cat] = [];
+    grouped[cat].push(item);
+  }
+  return grouped;
+}
+
+app.get('/', (req, res) => {
+  const dataPath = path.join(__dirname, 'data', 'daily_briefing.json');
+  let briefings = [];
+  try {
+    briefings = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+  } catch (e) {
+    briefings = [];
+  }
+  const groupedBriefings = groupByCategory(briefings);
+  res.render('index', {
+    title: "The Nation's Herald",
+    description: "The official daily intelligence briefing for the crypto ecosystem. The Nation's Herald is an autonomous agent that uses a hybrid intelligence model. It combines its internal skills with custom data services to gather, clean, and synthesize market-moving news, project updates, and emerging trends into a single, curated daily report.",
+    groupedBriefings,
+    capitalize
+  });
+});
+
+app.listen(PORT, () => {
+  console.log(`The Nation's Herald running at http://localhost:${PORT}`);
+});

@@ -1,0 +1,480 @@
+[
+  {
+    "project": "Nation Fun",
+    "category": "Promo",
+    "description": "Discover more at Nation Fun!",
+    "url": "https://nation.fun",
+    "promo": true
+  },
+  {
+    "project": "US Producer Prices July",
+    "category": "News",
+    "description": "US July producer prices rise 3.3% year-over-year and 0.9% month-over-month; core PPI rises 3.7% year-over-year and 0.9% month-over-month.",
+    "promo": false
+  },
+  {
+    "project": "US Treasury Bitcoin Policy",
+    "category": "News",
+    "description": "Government won't buy Bitcoin for strategic reserve but will retain seized assets.",
+    "url": "https://www.theblock.co/post/366958/us-treasury-secretary-bessent-bitcoin-strategic-reserve",
+    "promo": false
+  },
+  {
+    "project": "Google Play Store Crypto Wallet Update",
+    "category": "News",
+    "description": "Google clarifies ‘terrible’ Play Store crypto wallet update after community backlash.",
+    "url": "https://x.com/NewsFromGoogle/status/1955741506440192463",
+    "promo": false
+  },
+  {
+    "project": "BTCTurk Exploit",
+    "category": "Update",
+    "description": "BTCTurk exploited for $48M.",
+    "url": "https://x.com/CyversAlerts/status/1955967877602803929",
+    "promo": false
+  },
+  {
+    "project": "Anchorage Custody",
+    "category": "Update",
+    "description": "Anchorage to custody HYPE token.",
+    "url": "https://x.com/Anchorage/status/1955645436410417418",
+    "promo": false
+  },
+  {
+    "project": "GMX Attack Distribution",
+    "category": "Update",
+    "description": "GMX completes $44M distribution plan for recent attack.",
+    "url": "https://x.com/GMX_IO/status/1955635464398147712",
+    "promo": false
+  },
+  {
+    "project": "Dinari Global L1 Launch",
+    "category": "News",
+    "description": "Dinari Global to launch their own Layer 1 blockchain.",
+    "url": "https://www.coindesk.com/business/2025/08/14/tokenization-firm-dinari-to-launch-l1-blockchain-aims-to-be-the-dtcc-of-tokenized-stocks",
+    "promo": false
+  },
+  {
+    "project": "Coinbase Acquires Deribit",
+    "category": "News",
+    "description": "Coinbase officially acquires Deribit.",
+    "url": "https://x.com/DeribitInsights/status/1955987348618912042",
+    "promo": false
+  },
+  {
+    "project": "Bless Network Airdrop",
+    "category": "Launch",
+    "description": "Bless Network airdrop registration open.",
+    "url": "https://x.com/theblessnetwork/status/1955700125965156681",
+    "promo": false
+  },
+  {
+    "project": "Hypercircle ICO",
+    "category": "Launch",
+    "description": "Hypercircle ICO launching today on HyperEVM.",
+    "url": "https://x.com/hypercircleapp",
+    "promo": false
+  },
+  {
+    "project": "Cherry AI TGE",
+    "category": "Launch",
+    "description": "Cherry AI token generation event live on CEXs.",
+    "url": "https://x.com/cherrytgbot",
+    "promo": false
+  },
+  {
+    "project": "rePrice TGE",
+    "category": "Launch",
+    "description": "rePrice token generation event at 4pm UTC on HyperEVM.",
+    "url": "https://x.com/_rePRICE",
+    "promo": false
+  },
+  {
+    "project": "Overlay TGE",
+    "category": "Launch",
+    "description": "Overlay token generation event live on CEXs.",
+    "url": "https://x.com/OverlayProtocol",
+    "promo": false
+  },
+  {
+    "project": "EtherealDEX Season 1",
+    "category": "Launch",
+    "description": "EtherealDEX season one launched today.",
+    "url": "https://x.com/etherealdex/status/1955346571631149520",
+    "promo": false
+  },
+  {
+    "project": "Earnium",
+    "category": "New Project",
+    "description": "Liquidity management on Aptos.",
+    "url": "https://x.com/earnium_io",
+    "promo": false
+  },
+  {
+    "project": "Brrr Network",
+    "category": "New Project",
+    "description": "Payments and infrastructure project.",
+    "url": "https://x.com/brrrnetwork",
+    "promo": false
+  },
+  {
+    "project": "Destroy Robots",
+    "category": "New Project",
+    "description": "Robotics and AI focused project.",
+    "url": "https://x.com/destroyrobots",
+    "promo": false
+  },
+  {
+    "project": "ArAIstotle",
+    "category": "New Project",
+    "description": "AI agents on Base network.",
+    "url": "https://x.com/arAIstotle",
+    "promo": false
+  },
+  {
+    "project": "Sogni",
+    "category": "New Project",
+    "description": "AI and DePin project.",
+    "url": "https://x.com/Sogni_Protocol",
+    "promo": false
+  },
+  {
+    "project": "Do Kwon Guilty Plea",
+    "category": "News",
+    "description": "Do Kwon pleads guilty to US fraud charges.",
+    "url": "https://www.reuters.com/legal/government/do-kwon-pleads-guilty-us-fraud-charges-40-billion-crypto-collapse-2025-08-12/",
+    "promo": false
+  },
+  {
+    "project": "Circle Share Offering",
+    "category": "News",
+    "description": "Circle files for offering 2M Class A shares.",
+    "url": "https://x.com/trad_fin/status/1955365650358210779",
+    "promo": false
+  },
+  {
+    "project": "Bullish IPO",
+    "category": "News",
+    "description": "Bullish raises $1.1 billion in IPO.",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-13/crypto-firm-bullish-raises-1-1-billion-in-ipo-priced-over-range",
+    "promo": false
+  },
+  {
+    "project": "Odin GodOfRunes Exploit",
+    "category": "Update",
+    "description": "Odin GodOfRunes exploited for 60 BTC.",
+    "url": "https://x.com/BobBodily/status/1955477887701881007",
+    "promo": false
+  },
+  {
+    "project": "EtherealDEX Season Zero Ends",
+    "category": "Update",
+    "description": "EtherealDEX season zero ended.",
+    "url": "https://x.com/etherealdex/status/1955346571631149520",
+    "promo": false
+  },
+  {
+    "project": "Stargate Finance Proposal",
+    "category": "Update",
+    "description": "Emergency proposal for Stargate Finance regarding LayerZero acquisition.",
+    "url": "https://stargate.discourse.group/t/emergency-proposal-independent-sale-process-for-stargate/789",
+    "promo": false
+  },
+  {
+    "project": "OKX Token Burn",
+    "category": "Update",
+    "description": "OKX to burn 65 million tokens and cap supply at 21 million.",
+    "url": "https://www.okx.com/help/announcement-on-the-pp-upgrade-of-x-layer-and-optimisation-of-the-okb-gas",
+    "promo": false
+  },
+  {
+    "project": "Coinbase Stablecoin Fund",
+    "category": "Update",
+    "description": "Coinbase relaunched their Stablecoin Bootstrap Fund.",
+    "url": "https://www.theblock.co/post/366656/coinbase-stablecoin-liquidity-aave-morpho-kamino-jupiter-new-bootstrap-fund",
+    "promo": false
+  },
+  {
+    "project": "Heliuslabs Slashing",
+    "category": "Update",
+    "description": "Heliuslabs bringing slashing to Solana.",
+    "url": "https://www.helius.dev/blog/bringing-slashing-to-solana",
+    "promo": false
+  },
+  {
+    "project": "GSQHoldings Partnership",
+    "category": "Update",
+    "description": "GSQHoldings announces partnership with Animecoin and Azuki.",
+    "url": "https://x.com/GSQHoldings/status/1955602770624426495",
+    "promo": false
+  },
+  {
+    "project": "Eden Network Shutdown",
+    "category": "News",
+    "description": "Eden Network shutting down.",
+    "url": "https://www.theblock.co/post/366711/eden-network-shuts-down",
+    "promo": false
+  },
+  {
+    "project": "Morpho",
+    "category": "Launch",
+    "description": "Morpho live on Arbitrum.",
+    "url": "http://app.morpho.org/",
+    "promo": false
+  },
+  {
+    "project": "MetaLend",
+    "category": "Launch",
+    "description": "MetaLend live on Linea.",
+    "url": "https://metalend.tech/",
+    "promo": false
+  },
+  {
+    "project": "Suzaku Network TGE",
+    "category": "Launch",
+    "description": "Suzaku Network token generation event live on Avalanche.",
+    "url": "http://suzaku.network/",
+    "promo": false
+  },
+  {
+    "project": "Quickswap",
+    "category": "Launch",
+    "description": "Quickswap live on Base.",
+    "url": "http://dapp.quickswap.exchange/",
+    "promo": false
+  },
+  {
+    "project": "Fortune",
+    "category": "New Project",
+    "description": "Fortune project launch.",
+    "url": "https://x.com/fortunechainz",
+    "promo": false
+  },
+  {
+    "project": "TrueFlow",
+    "category": "New Project",
+    "description": "Plasma based stablecoin and DEX project.",
+    "url": "https://x.com/TrueFlowFDN",
+    "promo": false
+  },
+  {
+    "project": "Inflectiv",
+    "category": "New Project",
+    "description": "AI project.",
+    "url": "http://inflectiv.ai/",
+    "promo": false
+  },
+  {
+    "project": "Liquid Terminal",
+    "category": "New Project",
+    "description": "Hyperliquid trading terminal.",
+    "url": "http://liquidterminal.xyz/",
+    "promo": false
+  },
+  {
+    "project": "Sekai",
+    "category": "New Project",
+    "description": "Hyperliquid project.",
+    "url": "http://sekai.fi/",
+    "promo": false
+  },
+  {
+    "project": "Goblin Fi",
+    "category": "New Project",
+    "description": "Liquidity management on Aptos.",
+    "url": "https://linktr.ee/goblin_official",
+    "promo": false
+  },
+  {
+    "project": "Hash Strategy",
+    "category": "New Project",
+    "description": "Mining project.",
+    "url": "http://hashstrategy.com/",
+    "promo": false
+  },
+  {
+    "project": "Ostrich ICO",
+    "category": "Launch",
+    "description": "Ostrich ICO live on Ethereum.",
+    "url": "https://app.ostrich.exchange/initial-citizen-offering",
+    "promo": false
+  },
+  {
+    "project": "Idle Finance ICO",
+    "category": "Launch",
+    "description": "Idle Finance degen ICO live on Base.",
+    "url": "http://ico.idlefinances.com/",
+    "promo": false
+  },
+  {
+    "project": "Extended",
+    "category": "Launch",
+    "description": "Extended live on Starknet.",
+    "url": "http://app.extended.exchange/",
+    "promo": false
+  },
+  {
+    "project": "Quantum Economics",
+    "category": "New Project",
+    "description": "AI agents on Base.",
+    "url": "http://qe.finance/",
+    "promo": false
+  },
+  {
+    "project": "Arc",
+    "category": "New Project",
+    "description": "Layer 1 stablecoin project.",
+    "url": "http://arcnetwork.xyz/",
+    "promo": false
+  },
+  {
+    "project": "Overdraft",
+    "category": "New Project",
+    "description": "Hyperliquid offramp project.",
+    "url": "http://overdraft.com/",
+    "promo": false
+  },
+  {
+    "project": "Unlink",
+    "category": "New Project",
+    "description": "Unlink project.",
+    "url": "http://unlink.xyz/",
+    "promo": false
+  },
+  {
+    "project": "Solstice",
+    "category": "New Project",
+    "description": "Solana yield aggregator.",
+    "url": "http://solsticelabs.io/",
+    "promo": false
+  },
+  {
+    "project": "Herd",
+    "category": "New Project",
+    "description": "Lottery and payments on Fuel.",
+    "url": "http://herd.cash/",
+    "promo": false
+  },
+  {
+    "project": "0DTE",
+    "category": "New Project",
+    "description": "Predictions project.",
+    "promo": false
+  },
+  {
+    "project": "Bitcredit Protocol",
+    "category": "New Project",
+    "description": "Bitcredit protocol.",
+    "url": "http://bit.cr/",
+    "promo": false
+  },
+  {
+    "project": "Pyramid",
+    "category": "New Project",
+    "description": "OHM project on Base.",
+    "promo": false
+  },
+  {
+    "project": "Panthera",
+    "category": "New Project",
+    "description": "Panthera project.",
+    "promo": false
+  },
+  {
+    "project": "Monk",
+    "category": "New Project",
+    "description": "Workflow automation.",
+    "url": "http://monk.com/",
+    "promo": false
+  },
+  {
+    "project": "Crypto Gem Analytics",
+    "category": "News",
+    "description": "Bitcoin buyer exhaustion as altcoin interest surges; Czech police detain darknet founder in $45M BTC bribery case.",
+    "url": "https://cointelegraph.com/news/ethereum-altcoin-interest-bitcoin-buyer-exhaustion",
+    "promo": false
+  },
+  {
+    "project": "Crypto Gem Analytics",
+    "category": "News",
+    "description": "OKB pumps 160% after token burn and X Layer upgrade; ETH forecast raised to $7.5K due to ETF boom and network upgrades.",
+    "url": "https://www.okx.com/ru/help/announcement-on-the-pp-upgrade-of-x-layer-and-optimisation-of-the-okb-gas",
+    "promo": false
+  },
+  {
+    "project": "Bless Network",
+    "category": "Update",
+    "description": "Bless opened registration for $TIME airdrop; OKX Wallet users get 5% bonus.",
+    "url": "https://x.com/theblessnetwork/status/1955700125965156681",
+    "promo": false
+  },
+  {
+    "project": "Pharos",
+    "category": "Update",
+    "description": "Launched Storyteller ambassador program.",
+    "promo": false
+  },
+  {
+    "project": "Ethereal",
+    "category": "Update",
+    "description": "Second point farming season started with 4 epochs and rewards boost for first season participants.",
+    "url": "https://x.com/etherealdex/status/1955346571631149520",
+    "promo": false
+  },
+  {
+    "project": "LiveArt",
+    "category": "Update",
+    "description": "Mint ART BOOST badge on Base network, free NFT mint with 1,500 $ART points reward.",
+    "url": "https://x.com/LiveArtX/status/1955268078218125664",
+    "promo": false
+  },
+  {
+    "project": "Lumiterra",
+    "category": "Launch",
+    "description": "New game launched on Monad; users can claim daily rewards.",
+    "url": "https://x.com/LumiterraGame/status/1955601417055686831",
+    "promo": false
+  },
+  {
+    "project": "Nation Fun",
+    "category": "Promo",
+    "description": "Discover more at Nation Fun!",
+    "url": "https://nation.fun",
+    "promo": true
+  },
+  {
+    "project": "Etherscan",
+    "category": "Update",
+    "description": "Launched 10th Anniversary Campaign with Points Beta; users can earn badges and rewards.",
+    "url": "http://etherscan.io/points",
+    "promo": false
+  },
+  {
+    "project": "Doma",
+    "category": "Update",
+    "description": "New quest on Galxe with social tasks and domain purchases.",
+    "url": "https://app.galxe.com/quest/D3/",
+    "promo": false
+  },
+  {
+    "project": "Sentient",
+    "category": "Update",
+    "description": "Launching quest system on Discord and Galxe; users can prepare by claiming roles.",
+    "url": "https://discord.com/channels/1255126309416206408/1255126309978247271/1404807794200416287",
+    "promo": false
+  },
+  {
+    "project": "LayerZero",
+    "category": "News",
+    "description": "Acquired Stargate; STG tokens convertible to ZRO after voting.",
+    "url": "https://x.com/LayerZero_Core/status/1954592339789500518",
+    "promo": false
+  },
+  {
+    "project": "Nexus",
+    "category": "Update",
+    "description": "Introduced weekly resetting leaderboard in NexusOS with 5 rank tiers.",
+    "url": "http://app.nexus.xyz/",
+    "promo": false
+  }
+]
