@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+ENV/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Data/Session/Cache
+*.session
+*.log
+*.sqlite3
+
+# Ignore compiled JS
+*.tsbuildinfo
+
+# Ignore public build output (optional, uncomment if needed)
+# public/
