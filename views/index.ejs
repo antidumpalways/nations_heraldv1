@@ -18,18 +18,30 @@
         <div class="empty">No data available.</div>
       <% } %>
       <div class="category-cards-row">
-        <% Object.keys(groupedBriefings).forEach(cat => { %>
+        <%
+          const allowedCategories = ['📰News', 'Project Updates', 'Threads/Reads', 'Launches', 'New Projects'];
+          const filteredCategories = Object.keys(groupedBriefings).filter(cat => allowedCategories.includes(cat));
+        %>
+        <% filteredCategories.forEach(cat => { %>
           <section class="category-bigcard">
             <div class="category-heading"><%= cat %></div>
             <div class="category-list">
               <% groupedBriefings[cat].forEach(item => { %>
-                <div class="category-list-item">
-                  <div class="cat-list-title"><%= item.project %></div>
-                  <div class="cat-list-desc"><%= item.description %></div>
-                  <% if (item.url) { %>
-                    <a class="cat-list-cta" href="<%= item.url %>" target="_blank">Read More &rarr;</a>
-                  <% } %>
-                </div>
+                <% 
+                  // Filter khusus Launches & New Projects: hanya tampilkan url Twitter/X
+                  let show = true;
+                  if ((cat === 'Launches' || cat === 'New Projects') && item.url) {
+                    show = /twitter\.com|x\.com/i.test(item.url);
+                  }
+                %>
+                <% if (show) { %>
+                  <div class="category-list-item">
+                    <div class="cat-list-desc"><%= item.description %></div>
+                    <% if (item.url) { %>
+                      <a class="cat-list-cta" href="<%= item.url %>" target="_blank">Read More &rarr;</a>
+                    <% } %>
+                  </div>
+                <% } %>
               <% }) %>
             </div>
           </section>
