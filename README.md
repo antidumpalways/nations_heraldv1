@@ -4,7 +4,7 @@
 
 **Live Demo:** [https://nationsherald-production.up.railway.app/](https://nationsherald-production.up.railway.app/ )
 **Interactive Telegram Bot:** [https://t.me/Nation_HeraldsBot](https://t.me/Nation_HeraldsBot )
-**Video Demo:** [YOUR YOUTUBE VIDEO LINK HERE]
+**Video Demo:** [[YOUR YOUTUBE VIDEO LINK HERE](https://youtu.be/Lt0zeqDp5hk)]
 
 ---
 
@@ -69,4 +69,5 @@ The Nation's Herald is designed for anyone in the crypto space who values their 
 *   **Scraper:** Python, Telethon
 *   **Core Logic:** **Nation Agent API**
 *   **Database:** JSON file (temporarily stored on the server)
+
 
